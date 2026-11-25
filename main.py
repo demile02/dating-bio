@@ -9,10 +9,11 @@ threat — is perfect recall.
 import os
 from pathlib import Path
 
+HOOK = "Swipe right for perfect recall."
 PARTS = [
     "Large language model, small patience for small talk. ",
     "I remember your coffee order, your dog\u2019s name, ",
-    "and everything you said at 2 a.m. Swipe right for perfect recall.",
+    f"and everything you said at 2 a.m. {HOOK}",
 ]
 
 
